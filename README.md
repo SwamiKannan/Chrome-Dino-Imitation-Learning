@@ -26,4 +26,4 @@ This also jives with my larger philosophy that a single model may not be profici
 
 
 
-Cover Image generated using 
+Cover Image generated using <a href="https://www.segmind.com/models/sdxl1.0-txt2img">Segmind's Stable Diffusion XL 1.0 model</a>
