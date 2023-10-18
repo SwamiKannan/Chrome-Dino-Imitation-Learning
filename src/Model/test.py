@@ -7,10 +7,11 @@ import torch.nn.functional as F
 import os
 from torch.utils.tensorboard import SummaryWriter
 from torchmetrics.classification import MulticlassAccuracy
-import math
 import time
 import pickle
+
 from sklearn.metrics import f1_score
+from sklearn.metrics._classification import classification_report
 
 test_log_path = "logs//test"
 results_path = "data//results"
@@ -92,4 +93,14 @@ sorted_scores = sorted(new_results_dict.items(),
                        reverse=True, key=lambda item: item[1][1])
 print(dict(sorted_scores))
 
-preferred_model = so
+# Get classification report of preferred model
+preferred_model = sorted_scores[0][0]
+preferred_model_results = model_evaluations[preferred_model]
+
+
+y_preds, y_acts, losses, sample_lengths, accuracies = preferred_model_results[0]
+final_y_preds = np.hstack(y_preds)
+final_ys = np.hstack(y_acts)
+print(accuracies)
+
+print(classification_report(final_ys, final_y_preds))
