@@ -10,9 +10,9 @@ import math
 from loader import path, create_batches
 
 
-checkpoint_path = "..//..//models/checkpoints/"
-log_train_path = "..//..//logs//train"
-log_val_path = "..//..//logs//val"
+checkpoint_path = "models/checkpoints/"
+log_train_path = "logs//train"
+log_val_path = "logs//val"
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
@@ -65,10 +65,10 @@ for e in range(10):
             "Loss_batch/train", loss.item(), train_batch_no)
         train_writer.add_scalar("Loss_accuracy/train",
                                 acc_batch.item(), train_batch_no)
-        if b % 100 == 0:
+        if b+2 % 100 == 0:
             print(
                 f'Epoch {e}\tbatch {b} / {len(train_loader)}\tLoss:{loss.item()}\tAccuracy:{acc_batch.item()}')
-        if b % 1000 == 0:
+        if b+2 % 1000 == 0:
             PATH = os.path.join(checkpoint_path, str(e) +
                                 '_'+str(b)+'_'+'model.pt')
             torch.save({
@@ -104,7 +104,7 @@ for e in range(10):
                 "Loss_batch/eval", eval_loss.item(), eval_batch_no)
             val_writer.add_scalar("Loss_accuracy/train",
                                   eval_acc_batch.item(), eval_batch_no)
-            if b_eval % 100 == 0:
+            if b_eval+2 % 100 == 0:
                 print(
                     f'Eval Epoch {e}\tbatch {b} / {len(val_loader)}\tLoss:{eval_loss.item()}\tAccuracy:{eval_acc_batch.item()}')
     val_writer.add_scalar("Loss_epoch/eval", eval_loss.item(), e)
