@@ -3,7 +3,7 @@ from torch.utils.data import DataLoader, Dataset
 
 import os
 
-path = "..//data//processed_data/SMOTE//"
+path = "data//processed_data/SMOTE//"
 
 
 class DinoSet(Dataset):
