@@ -1,4 +1,4 @@
-# Training Logs
+# Performance Logs
 ### Errata:
 Loss accuracy is an incorrect title of the chart. It is "Accuracy/batch"
 <p align="center">
