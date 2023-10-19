@@ -1,12 +1,14 @@
 # Performance Logs
-### Errata:
-Loss accuracy is an incorrect title of the chart. It is "Accuracy/batch"
+### Errata: Loss accuracy is an incorrect title for the second chart. It is "Accuracy/batch"
 <p align="center">
-<img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/train_accuracy.png">
+<img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/Accuracy_epoch_train.svg">
   <img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/train_loss.png">
 </p>
 
 # Validation logs
-### Errata:
+### Errata: Loss accuracy is an incorrect title for the second chart. It is "Accuracy/batch"
+
+
+https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/val_accuracy.png
 
 # Testing logs (for all models)
