@@ -18,6 +18,13 @@
 </p>
 
 # Testing logs (for all models)
+
+### Note:
+During training, checkpoints for the model weights were created every 1000 batches and at the end of each epoch. Hence, the model name syntax is:
+<b><epoch_name>_<batch_name>_model.pt </b><br>
+e.g. <br>
+0_1000_model.pt refers to the model parameters on the 0th epoch after a 1000 batches were trained.
 <p align="center">
   <img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/test_logs/test_all_models.png">
+</p>
 
