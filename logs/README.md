@@ -16,11 +16,8 @@
   <img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/val_logs/val_loss.png">
 </a>
 </p>
-https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/val_accuracy.png
 
 # Testing logs (for all models)
 <p align="center">
-<a href="">
-  <img src="">
+  <img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/logs/test_logs/test_all_models.png">
 
-</a>
