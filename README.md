@@ -24,9 +24,14 @@ This also jives with my larger philosophy that a single model may not be profici
     2.  Jump: __8286__ frames
     3.  Duck: __1101__ frames
 
-
+## Output:
+https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/assets/65940566/28361f03-747c-4022-9012-a42c3087277c
 
 ## Credits for cover image:
+
+
+
+
 Cover Image generated using <a href="https://www.segmind.com/models/sdxl1.0-txt2img">Segmind's Stable Diffusion XL 1.0 model</a>
 ### Prompt
 <img src="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/prompt.png">
