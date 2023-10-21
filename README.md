@@ -38,6 +38,7 @@ This also jives with my larger philosophy that a single model may not be profici
 4. Test the models:
    1. Run <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/Model/test.py">test.py</a>
 ## Output:
+
 https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/assets/65940566/28361f03-747c-4022-9012-a42c3087277c
 
 ## Credits for cover image:
