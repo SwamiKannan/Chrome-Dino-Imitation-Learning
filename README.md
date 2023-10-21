@@ -39,7 +39,11 @@ This also jives with my larger philosophy that a single model may not be profici
    1. Run <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/Model/test.py">test.py</a>
 ## Output:
 
-https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/assets/65940566/28361f03-747c-4022-9012-a42c3087277c
+
+
+
+https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/assets/65940566/8e5e2d52-60c8-46ca-be8d-f803570a9d18
+
 
 ## Credits for cover image:
 
