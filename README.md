@@ -23,14 +23,24 @@ This also jives with my larger philosophy that a single model may not be profici
     1.  Run: __46545__ frames
     2.  Jump: __8286__ frames
     3.  Duck: __1101__ frames
-
+## How to run this repo:
+1. Capture Frames:
+    1. Setup the Dino game in your browser (chrome://dino or brave://dino for Chrome and Brave respectively). Make sure that the screen is maximized horizontally and no vertical scroll bars are on the window.
+    2. Run <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/DataCapture/capture_data.py"> and immediately make the Dino screen active.
+    3. Press space to start the game.
+    4. Use only "up" and "down" arrows to control the game. Using the "space" key does not capture the jump.
+2. Process the frames:
+   1. Run the following codes in this specific order:
+       1. <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/DataPreprocessing/data_preprocessing.py"> data_processing.py </a>
+       2. <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/DataPreprocessing/train_val_test.py">train_val_test.py</a>
+3. Train the model:
+   1. Run <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/Model/train.py">train.py</a>
+4. Test the models:
+   1. Run <a href="https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/blob/main/src/Model/test.py">test.py</a>
 ## Output:
 https://github.com/SwamiKannan/Chrome-Dino-Imitation-Learning/assets/65940566/28361f03-747c-4022-9012-a42c3087277c
 
 ## Credits for cover image:
-
-
-
 
 Cover Image generated using <a href="https://www.segmind.com/models/sdxl1.0-txt2img">Segmind's Stable Diffusion XL 1.0 model</a>
 ### Prompt
